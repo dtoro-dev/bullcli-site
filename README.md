@@ -10,10 +10,10 @@
   [![SQLite](https://img.shields.io/badge/SQLite-%23003B57.svg?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlite.org/)
   ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
 
-  ![GitHub stars](https://img.shields.io/github/stars/dtoro-dev/bull-site)
-  ![GitHub issues](https://img.shields.io/github/issues/dtoro-dev/bull-site)
-  ![GitHub forks](https://img.shields.io/github/forks/dtoro-dev/bull-site)
-  ![GitHub PRs](https://img.shields.io/github/issues-pr/dtoro-dev/bull-site)
+  ![GitHub stars](https://img.shields.io/github/stars/dtoro-dev/bullcli-site)
+  ![GitHub issues](https://img.shields.io/github/issues/dtoro-dev/bullcli-site)
+  ![GitHub forks](https://img.shields.io/github/forks/dtoro-dev/bullcli-site)
+  ![GitHub PRs](https://img.shields.io/github/issues-pr/dtoro-dev/bullcli-site)
 </div>
 
 **BullCLI** es un instalador y herramienta de línea de comandos (CLI), creada en Rust, diseñada para trabajar en conjunto con el framework [**Bullwork**](https://www.npmjs.com/package/bullwork).
@@ -38,7 +38,7 @@ BullCLI es la forma más rápida y moderna de construir backends profesionales u
 
 Puedes descargar el instalador desde aquí:
 
-👉 [Descargar BullCLI]() (Windows MSI)
+👉 [Descargar BullCLI](https://github.com/dtoro-dev/bullcli-site/releases/download/v2.0.0/bullcli-installer.exe)
 
 Una vez instalado, puedes comenzar a utilizar bull en tu terminal.
 
@@ -114,6 +114,92 @@ Descripción
 - Sistema operativo: Windows 10/11 (versión Linux/Mac en preparación).
 - Prisma instalado como dependencia del proyecto (Bullwork CLI lo maneja automáticamente).
 
+## 🔄 Instalación
+
+Descargar e instalar [**BullCLI**](https://github.com/dtoro-dev/bullcli-site/releases/download/v2.0.0/bullcli-installer.exe).
+
+🔄 Comandos disponibles
+
+### Crear proyecto
+```
+bull new            # Crea un nuevo proyecto Bullwork
+bull new project-name  # Crea un proyecto con nombre
+```
+### Desarrollo
+```
+bull dev            # Levanta el servidor de desarrollo
+```
+### Instalación de paquetes
+```
+bull install package-name    # Instala uno o varios paquetes
+bull i package-name          # Alias de install
+bull uninstall package-name  # Elimina paquetes
+```
+### Prisma (ORM)
+```
+bull prisma init          # Inicializa Prisma y crea base de datos
+bull prisma validate      # Valida el schema de Prisma
+bull prisma generate      # Genera el cliente de Prisma
+bull prisma migrate-dev   # Aplica migraciones en entorno de desarrollo
+bull prisma migrate-prod  # Aplica migraciones en entorno de producción
+```
+### Generar o eliminar módulos
+```
+bull generate:module module-name   # Crea un módulo completo
+bull g:m module-name               # Alias
+```
+```
+bull remove:module module-name     # Elimina un módulo
+bull r:m module-name               # Alias
+```
+### Ejecutar cualquier script
+```
+bull run script-name [args]
+# Ejemplo: bull run prisma:generate
+```
+### Seeds
+```
+bull seed           # Ejecuta los seeds de la base de datos
+```
+## 🔄 Estructura de proyecto generada
+```
+<nombre-proyecto>/
+├── config/
+│   ├── env.development
+│   ├── env.production
+│   └── env.test
+├── src/
+│   ├── app/
+│   ├── orm/
+│   │   ├── schema.prisma
+│   │   └── seed.ts
+│   ├── tests/
+│   ├── environment.config.ts
+│   └── main.ts
+├── .gitignore
+├── global.d.ts
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+## 📊 Beneficios
+
+- **Ultra rápido:** Rust garantiza ejecución en milisegundos.
+
+- **Ergonomía:** Comandos simples de recordar.
+
+- **Organizado:** Seguimos el estándar de Bullwork para escalar proyectos fácilmente.
+
+- **Automatizado:** Crea carpetas, archivos y configuraçón en segundos.
+
+- **Listo para Producción:** Directamente orientado al backend profesional.
+
+## 🚀 Sobre Bullwork
+
+Bullwork es un framework backend moderno construido en TypeScript, pensado para ser minimalista pero poderoso, ideal para proyectos profesionales y escalables.
+
+**BullCLI es su CLI oficial a partir de la versión 2.0.0.**
+
 ## 🛡️ Licencia
 
 Este proyecto está protegido bajo la licencia propietaria:
@@ -124,6 +210,6 @@ Este proyecto está protegido bajo la licencia propietaria:
 
 <div align="center">
   <a href="https://dtoro-dev-portfolio.netlify.app/">
-    <img src="./src/assets/dtorodev-bg.png" width="auto" />
+    <img src="./src/assets/dtorodev-bg.png" width="400" />
   </a> 
 </div>
