@@ -22,14 +22,14 @@ function Header() {
   return (
     <header className="fixed w-full top-0 z-50 transition-all duration-300 py-2 bg-white dark:bg-primary/95">
       <div className="container flex items-center justify-between">
-        <Link to="/" className="flex items-center space-x-2">
+        <Link to="/" className="flex items-center space-x-2 text-primary dark:text-white">
           <HiCommandLine />
           BullCLI
         </Link>
         
         <nav className="hidden md:flex items-center space-x-8">
           <Link to="/" className="text-primary dark:text-white hover:text-secondary dark:hover:text-secondary font-medium transition-colors">Home</Link>
-          <Link to="#descargar" className="text-primary dark:text-white hover:text-secondary dark:hover:text-secondary font-medium transition-colors">Descargar</Link>
+          <Link to="https://github.com/dtoro-dev/bullcli-site/releases/download/v2.0.0/bullcli-installer.exe" className="text-primary dark:text-white hover:text-secondary dark:hover:text-secondary font-medium transition-colors">Descargar</Link>
           <Link to="/documentation" className="text-primary dark:text-white hover:text-secondary dark:hover:text-secondary font-medium transition-colors">Documentación</Link>
           <button onClick={toggleDarkMode} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-primary/50">
             {isDark ? (

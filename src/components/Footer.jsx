@@ -1,6 +1,6 @@
-import React from 'react'
-import { HiCommandLine } from 'react-icons/hi2'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { HiCommandLine } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -8,7 +8,10 @@ function Footer() {
       <div className="container">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <Link to="/" className="flex items-center space-x-2">
+            <Link
+              to="/"
+              className="flex items-center space-x-2 text-primary dark:text-white"
+            >
               <HiCommandLine />
               BullCLI
             </Link>
@@ -19,7 +22,7 @@ function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

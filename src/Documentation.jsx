@@ -11,11 +11,11 @@ function Documentation() {
         <div className="container">
           <div className="max-w-3xl mx-auto flex flex-col items-center text-center">
             <img
-              src="/src/assets/logo.png"
+              src="https://raw.githubusercontent.com/dtoro-dev/bullcli-site/refs/heads/master/src/assets/logo.png"
               alt="BullCLI Logo"
               className="w-96 rounded-lg p-2 mb-8"
             />
-            <h1 className="text-3xl md:text-4xl font-bold text-primary dark:text-white">
+            <h1 className="text-3xl md:text-4xl font-bold text-white">
               Documentación de BullCLI
             </h1>
           </div>
@@ -306,7 +306,7 @@ function Documentation() {
         <div className="max-w-3xl mx-auto flex flex-col items-center text-center">
           <Link to="https://dtoro-dev-portfolio.netlify.app/" target="_blank">
             <img
-              src="/src/assets/dtorodev-bg.png"
+              src="https://raw.githubusercontent.com/dtoro-dev/bullcli-site/refs/heads/master/src/assets/dtorodev-bg.png"
               alt="DToroDev"
               className="w-96 rounded-lg p-2 mb-8"
             />

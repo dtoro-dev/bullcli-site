@@ -13,7 +13,7 @@ function App() {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary dark:text-white mb-6 flex items-center justify-center">
-              <img src="/src/assets/logo.png" alt="BullCLI Logo" className="w-72  rounded-lg p-2" />
+              <img src="https://raw.githubusercontent.com/dtoro-dev/bullcli-site/refs/heads/master/src/assets/logo.png" alt="BullCLI Logo" className="w-72  rounded-lg p-2" />
             </h1>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-300 dark:text-white mb-6">⚡ Fast Backend CLI Framework</h2>
             <p className="text-lg md:text-xl text-white dark:text-gray-300 mb-10 leading-relaxed">
