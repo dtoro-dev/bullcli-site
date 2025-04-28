@@ -304,7 +304,7 @@ function Documentation() {
 
       <section className="pt-20 bg-gradient-to-b to-accent from-primary dark:from-primary dark:to-accent/60 text-white dark:text-primary">
         <div className="max-w-3xl mx-auto flex flex-col items-center text-center">
-          <Link to="https://dtoro-dev-portfolio.netlify.app/">
+          <Link to="https://dtoro-dev-portfolio.netlify.app/" target="_blank">
             <img
               src="/src/assets/dtorodev-bg.png"
               alt="DToroDev"
