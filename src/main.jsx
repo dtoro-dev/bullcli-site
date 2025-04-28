@@ -7,7 +7,7 @@ import Documentation from "./Documentation.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Router>
+    <Router basename="/bullcli-site/">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/documentation" element={<Documentation />} />
