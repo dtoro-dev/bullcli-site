@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./src/assets/logo-large.png" width="auto"/>
 
-  # 
+  # ⚡ Fast Backend CLI Framework
 
   [![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![Node.js](https://img.shields.io/badge/Node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -46,7 +46,7 @@ Una vez instalado, puedes comenzar a utilizar bull en tu terminal.
 
 Consulta la documentación oficial para aprender todos los comandos disponibles:
 
-👉 [Documentación BullCLI]()
+👉 [Documentación BullCLI](https://dtoro-dev.github.io/bullcli-site/)
 
 ## ⚙️ Comandos principales
 <table style="width: 100%">
@@ -116,7 +116,7 @@ Descripción
 
 ## 🔄 Instalación
 
-Descargar e instalar [**BullCLI**](https://github.com/dtoro-dev/bullcli-site/releases/download/v2.0.0/bullcli-installer.exe).
+Descargar e instalar [**BullCLI**](https://dtoro-dev.github.io/bullcli-site/).
 
 🔄 Comandos disponibles
 
